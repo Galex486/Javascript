@@ -1,0 +1,10 @@
+.item {
+    padding: 16px;
+    border: 1px solid gray;
+    width: 250px;
+    background-color: white;
+}
+
+container {
+                display: flex
+}

@@ -1,0 +1,31 @@
+body {
+    margin: 30;
+
+}
+
+.item {
+    padding: 16px;
+    border: 1px solid gray;
+    background-color: white;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 16px;
+    justify-content: center;
+    align-content: start;
+    
+
+}
+
+.item5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item9 {
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
